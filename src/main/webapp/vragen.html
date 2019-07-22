@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Polaris</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/vragen.css">
+</head>
+<body>
+
+	<!-- Dropdown menu in navigation bar -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<a class="navbar-brand" href="index.html">Polaris</a>
+
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home <i class="fa fa-home"></i></a>
+				</li>
+				<li class="nav-item dropdown dmenu">
+					<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+		        	Schoenen
+		        </a>
+		        <div class="dropdown-menu sm-menu">
+		        	<a class="dropdown-item" href="herenschoenen.html">Herenschoenen</a>
+	        		<a class="dropdown-item" href="#">Damesschoenen</a>
+	        		<a class="dropdown-item" href="#">Kinderschoenen</a>
+	      		</div>
+	     	</li>
+	     	<li class="nav-item dropdown dmenu">
+	     		<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+	        	Slippers
+	      		</a>
+	      		<div class="dropdown-menu sm-menu">
+		        	<a class="dropdown-item" href="#">Herenslippers</a>
+			        <a class="dropdown-item" href="#">Damesslippers</a>
+			        <a class="dropdown-item" href="#">Kinderslippers</a>
+		      	</div>
+	    	</li>
+	      	<li class="nav-item">
+	        	<a class="nav-link" href="#">Tassen</a>
+	     	</li>
+	      	<li class="nav-item">
+	        	<a class="nav-link" href="verlanglijst.html">Verlanglijst <i class="fa fa-heart"></i></a>
+	      	</li>
+	      	<li class="nav-item">
+	        	<a class="nav-link" href="vragen.html">Veelgestelde vragen <i class="fa fa-question"></i>
+	        	<span class="sr-only">(current)</span></a>
+	      	</li>			
+	    </ul>
+
+	    <!-- Search -->
+	    <form class="form-inline my-2 my-lg-0">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Zoeken" aria-label="Search">
+	      <button class="btn btn-outline-default my-2 my-sm-0" type="submit">Zoek</button>
+	    </form>
+	    <!-- End of search -->
+
+	  </div>
+	</nav>
+	<!-- End of navigation bar -->
+	
+	<!-- FAQ -->
+	<div class="faq-header">Veelgestelde vragen</div>
+
+		<div class="faq-content">
+		  <div class="faq-question">
+		    <input id="q1" type="checkbox" class="panel">
+		    <div class="plus">+</div>
+		    <label for="q1" class="panel-title">Kan ik een artikel ruilen?</label>
+		    <div class="panel-content">Mocht u niet tevreden zijn over de keuze die u heeft gemaakt, kunt u gedurende 8 dagen het artikel ruilen.
+				  Dit is mogelijk indien de artikelen ongedragen zijn, in originele staat en voorzien zijn van de originele labels.</div>
+		  </div>
+		  
+		  <div class="faq-question">
+		    <input id="q2" type="checkbox" class="panel">
+		    <div class="plus">+</div>
+		    <label for="q2" class="panel-title">Binnen hoeveel dagen kan ik mijn artikel retourneren?</label>
+		    <div class="panel-content">Alle goederen die zijn afgerekend kunnen gedurende 8 dagen aan ons worden geretourneerd. 
+				  Dit is mogelijk indien de artikelen ongedragen zijn, in originele staat en voorzien zijn van de originele labels.</div>
+		  </div>
+		  
+		  <div class="faq-question">
+		    <input id="q3" type="checkbox" class="panel">
+		    <div class="plus">+</div>
+		    <label for="q3" class="panel-title">Kan ik van te voren een artikel reserveren?</label>
+		    <div class="panel-content">Nee dat kunt u helaas niet, omdat wij geen adminstratieve gegevens bijhouden van klanten die een artikel willen reserveren.</div>
+		  </div>
+		</div>
+	<!-- End FAQ -->
+	
+	<!-- Footer -->
+	<footer>
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<h5>Info</h5>
+					<hr class="light">
+					<p><i class="fa fa-address-book"></i> Adres: Roelantdreef 2</p>
+					<p><i class="fa fa-address-book"></i> Postcode: 3564 KA Utrecht</p>
+					<p><a href="vragen.html" class="text-danger">Veelgestelde vragen</a></p>
+				</div>
+				<div class="col-md-4">
+					<h5>Openingstijden</h5>
+					<hr class="light">
+					<p>Maandag: 08.00 - 18.00 uur</p>
+					<p>Dinsdag: 08.00 - 18.00 uur</p>
+					<p>Woensdag: 08.00 - 18.00 uur</p>
+					<p>Donderdag: 08.00 - 21.00 uur</p>
+					<p>Vrijdag: 08.00 - 18.00 uur</p>
+					<p>Zaterdag: 08.00 - 18.00 uur</p>
+					<p>Zondag: 08.00 - 18.00 uur</p>
+				</div>
+				<div class="col-md-4">
+					<h5>Registreren</h5>
+					<hr class="light">
+					<p>Bent u nog geen lid van Polaris en wilt u een account?</p>
+					<p>Registreer nu!</p>
+					<button class="button"><span>Registreer </span></button>
+					<hr class="light">
+					<p>Heeft u al een account? Log in!</p>
+					<button class="button"><span>Inloggen </span></button>
+				</div>
+				<div class="col-12">
+					<hr class="light-100">
+					<h5>&copy; polaris.herokuapp.com</h5>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer -->
+	
+	<!-- Script tags -->
+	<script src="js/main.js"></script>
+	
+</body>
+</html>

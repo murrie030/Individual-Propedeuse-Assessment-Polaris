@@ -1,0 +1,48 @@
+.container {
+	margin-top: 100px;
+}
+
+.col-md-7 h2 {
+	color: #555;
+}
+
+.verlanglijstButton {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #EA2027; 	/* Red pigment */
+	border: none;
+	color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 19px;
+	padding: 10px;
+	width: 150px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.verlanglijstButton span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.verlanglijstButton span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.verlanglijstButton:hover span {
+	padding-right: 25px;
+}
+
+.verlanglijstButton:hover span:after {
+	opacity: 1;
+	right: 0;
+}

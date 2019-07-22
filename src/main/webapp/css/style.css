@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+	color: #333;
+  	overflow-x: hidden;
+}
+
+/* Media Query*/
+@media (max-width: 768px) {
+	.display-4 {
+		font-size: 200%;
+	}
+}
+
+.padding {
+	padding-bottom: 2rem;
+}
+
+/* Welcome section */
+.welcome {
+	padding-top: 1rem;
+}
+
+.welcome hr {
+	border-top: 2px solid #ED4C67;	/* Bara red */
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+/* Navbar */
+.navbar {
+    background: #EA2027 !important;	/* Red pigment */
+}
+
+.dropdown {
+    border-radius:0;
+    border:0;
+}
+
+.dropdown-menu {
+    background: #EA2027;
+    border:0;
+    top:80%;
+    border-radius:0px 0px 5px 5px;
+}
+
+.dropdown-item:hover { 
+    background: #ED4C67;
+    color: #fff;
+}
+
+.dropdown-menu a {
+    color: #fff;
+} 
+
+.navbar .nav-item .nav-link {
+    color: #eee !important; 
+}
+
+.navbar .nav-item .nav-link:hover .navbar .nav-item .nav-link {
+    color: red !important;
+}
+
+/* Footer */
+footer {
+	background-color: #3F3F3F; 		/* Very dark gray */
+	color: #D5D5D5;           	 	/* Light gray */
+	border-top: 4px solid #EA2027;
+	padding-top: 2rem;
+	bottom: 0;
+	width: 100%;
+
+}
+
+/* Hr */
+hr.light {
+	border-top: 1px solid #EA2027;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+hr.light-100 {
+	border-top: 1px solid #EA2027;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+hr.my-4 {
+	border-top: 1px solid #EA2027;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;	
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #EA2027;
+  border: none;
+  color: #FFF;
+  text-align: center;
+  vertical-align:middle;
+  font-size: 19px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
